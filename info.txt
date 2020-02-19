@@ -1,0 +1,39 @@
+Last login: Wed Feb 19 16:16:42 on ttys001
+ln-moco-02-10:~ ah946$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+ln-moco-02-10:~ ah946$ mkdir testfolder3
+ln-moco-02-10:~ ah946$ cd desktop/
+ln-moco-02-10:desktop ah946$  mkdir testfolder3
+ln-moco-02-10:desktop ah946$ cd testfolder3/
+ln-moco-02-10:testfolder3 ah946$ git init
+Initialized empty Git repository in /Users/ah946/Desktop/testfolder3/.git/
+ln-moco-02-10:testfolder3 ah946$ touch info.txt
+ln-moco-02-10:testfolder3 ah946$ git add info.txt
+ln-moco-02-10:testfolder3 ah946$ git commit -m "my first commit"
+[master (root-commit) 1a526b3] my first commit
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.24.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 info.txt
+ln-moco-02-10:testfolder3 ah946$ git status
+On branch master
+ln-moco-02-10:testfolder3 ah946$ git remote add origin https://github.com/samuraiamz/laughing-broccoli.git
+ln-moco-02-10:testfolder3 ah946$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 241 bytes | 241.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/samuraiamz/laughing-broccoli.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ln-moco-02-10:testfolder3 ah946$
