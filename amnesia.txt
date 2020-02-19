@@ -1,0 +1,32 @@
+Last login: Wed Feb 19 16:28:22 on ttys000
+ln-moco-02-10:~ ah946$ cd desktop/
+ln-moco-02-10:desktop ah946$ cd testfolder3/
+ln-moco-02-10:testfolder3 ah946$ git init
+Reinitialized existing Git repository in /Users/ah946/Desktop/testfolder3/.git/
+ln-moco-02-10:testfolder3 ah946$ git add amnesia.txt
+ln-moco-02-10:testfolder3 ah946$ git commit -m "my first line commit"
+[master b71ec5b] my first line commit
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.24.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+ln-moco-02-10:testfolder3 ah946$ git remote add origin https://github.com/samuraiamz/laughing-broccoli.git
+fatal: remote origin already exists.
+ln-moco-02-10:testfolder3 ah946$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 567 bytes | 567.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/samuraiamz/laughing-broccoli.git
+   cd7c36a..b71ec5b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ln-moco-02-10:testfolder3 ah946$
